@@ -1,0 +1,50 @@
+.sub-titel-hero {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.titel-hero {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    color: #ffe000;
+}
+
+.text-hero {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    width: 223px;
+    margin-bottom: 24px;
+}
+.hero-containet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $_bg_color;
+}
+.hero-titel-container {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.google-hero {
+    fill: white;
+    stroke: transparent;
+}
+.hero-logo-google {
+    margin-bottom: 55px;
+}
+.hero-img {
+    max-width: 279px;
+   margin-bottom: 56px;
+}
