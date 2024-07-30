@@ -1,0 +1,41 @@
+.info-titel{
+    padding-top: 116px;
+font-family: "Paytone One", sans-serif;;
+font-weight: 400;
+font-size: 28px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #1e0e3f;
+margin-bottom: 16px;
+}
+.text-info{
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 13px;
+letter-spacing: 0.01em;
+color: #1e0e3f;
+}
+.info-list {
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.google-info {
+    fill: yellow;
+    stroke: transparent;
+}
+.info-logo-google{
+    margin-bottom: 48px;
+}
+.info_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color: $_bg_color;
+    background-image: url('./img/Ellipse_39.png'), url('./img/Ellipse_53.png'), url('./img/Ellipse_40.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center center, center top 24px, center top 16px;
+}
