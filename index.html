@@ -8,15 +8,51 @@
     <title>Bubble Coco</title>
     
     <script type="module" crossorigin src="/bubble-coco/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/bubble-coco/assets/index-52bf460e.css">
+    <link rel="stylesheet" href="/bubble-coco/assets/index-4082b18c.css">
   </head>
   <body>
     <header class="header">
-   
+    <div class="container header-container">
+
+        <div class="header-navigation">
+            <div class="header-logo">
+                <a href="./index.html" class="header-logo" aria-label="Home Page">
+                    <img src="../img/logo_header.png" alt="header-logo" width="16" height="16">
+                </a>
+                <a class="header_text" href="./index.html" role="link" aria-label="Home Page">
+                    Bubble CoCo
+                </a>
+            </div>
+
+            <button type="button" class="open-menu js-open-menu" aria-expanded="false">
+                <svg class="burger" width="24" height="24">
+                    <use href="../img/symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </button>
+
+        </div>
 </header>
-
     <section class="hero-section">
+  <div class="hero-containet">
+    <div class="hero-titel-container">
+      <h2 class="sub-titel-hero">Join the fun in </h2>
+      <h1 class="titel-hero">"Bubble Coco"</h1>
+    </div>
+    <p class="text-hero">Dive into an exciting bubble shooting adventure and help Coco the mother hen rescue her chicks!
+    </p>
+    <a href="https://play.google.com/" class="hero-logo-google"> <svg class="google" width="160" height="47">
+        <use class="google-hero" href="../img/symbol-defs.svg#icon-cta-button"></use>
+      </svg></a>
 
+      <picture>
+        <source srcset="
+              ../img/hero_image.png   1x,
+              ../img/hero_image2.png 2x
+          " media="(min-width: 375px) and (max-width: 1439px)" loading="lazy" />
+          <img src="../img/hero_image.png" alt="hero_image" class="hero-img" loading="lazy" />
+      </picture>
+
+  </div>
 </section>
     <section class="disclaimer-section">
 
