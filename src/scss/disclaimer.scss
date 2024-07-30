@@ -1,0 +1,32 @@
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    background-color: $_bg_second_color;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    width: 22px;
+    height: 22px;
+}
+.disclaimer-titel {
+margin-bottom: 16px;
+font-family:"Paytone One", sans-serif;
+font-weight: 400;
+font-size: 28px;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: #ffe000;
+}
+.disclaimer-text {
+font-family:"Poppins", sans-serif;;
+font-weight: 400;
+font-size: 13px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #fff;
+max-width: 288px;
+margin-bottom: 24px;
+}
