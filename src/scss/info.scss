@@ -1,5 +1,5 @@
 .info-titel{
-    padding-top: 116px;
+padding-top: 116px;
 font-family: "Paytone One", sans-serif;;
 font-weight: 400;
 font-size: 28px;
@@ -29,13 +29,17 @@ color: #1e0e3f;
 .info-logo-google{
     margin-bottom: 48px;
 }
+.info-img {
+    margin-bottom: 61px;
+}
 .info_container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction:column;
     background-color: $_bg_color;
-    background-image: url('../img/Ellipse_39.png'), url('../img/Ellipse_53.png'), url('../img/Ellipse_40.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center center, center top 24px, center top 16px;
+    background-image:  url('./img/Ellipse_39.png') ,url('../img/Ellipse_38.png') , url('../img/Ellipse_40.png');
+    background-repeat:  no-repeat, no-repeat, no-repeat ;
+    background-position: center top 78px , center top 24px ,center top 12px;
+    background-size: auto 80% , auto 100%, auto 100% ; 
 }
