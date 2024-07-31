@@ -38,8 +38,8 @@ color: #1e0e3f;
     justify-content: center;
     flex-direction:column;
     background-color: $_bg_color;
-    background-image:  url('../img/Ellipse_39.png') ,url('../img/Ellipse_38.png') , url('../img/Ellipse_40.png');
-    background-repeat:  no-repeat, no-repeat, no-repeat ;
-    background-position: center top 78px , center top 24px ,center top 12px;
-    background-size: auto 80% , auto 100%, auto 100% ; 
+    background-image: url('../img/bubble_blue.png'), url('../img/bubble_purpur.png'),  url('../img/Ellipse_39.png') ,url('../img/Ellipse_38.png') , url('../img/Ellipse_40.png');
+    background-repeat: no-repeat,no-repeat, no-repeat, no-repeat, no-repeat ;
+    background-position: left 65px top 51px ,left 10px top 86px , center top 76px , center top 32px ,center top 12px;
+    background-size:18px 18px , 34px 34px , auto 80% , auto 100%, auto 100% ; 
 }
