@@ -98,6 +98,7 @@
 @include media(desktop) {
   .header-navigation{
     justify-content: center;
+    align-items: center;
     gap: 89px;
   } 
   .open-menu {
@@ -145,6 +146,7 @@
   }
 
   .header-list {
+    justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
