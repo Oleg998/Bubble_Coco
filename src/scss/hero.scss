@@ -1,9 +1,16 @@
+.sub-hero-containet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .sub-titel-hero {
     font-family: "Paytone One", sans-serif;
     font-weight: 400;
     font-size: 30px;
     letter-spacing: 0.01em;
     color: #fff;
+    margin-bottom: 8px;
 }
 
 .titel-hero {
@@ -12,6 +19,7 @@
     font-size: 30px;
     letter-spacing: 0.01em;
     color: #ffe000;
+    margin-bottom: 8px;
 }
 
 .text-hero {
@@ -29,19 +37,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
     background-image: url('../img/bubble_green.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png');
     background-repeat: no-repeat,no-repeat ,no-repeat;
     background-position: left 13px top 58px ,left 43px top 246px ,right -18px top  ;
     background-size:19px 20px , 18px 18px , 36px 36px;
 }
-.hero-titel-container {
-    padding-top: 8px;
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
+
 .google-hero {
     fill: white;
     stroke: transparent;
@@ -54,3 +55,10 @@
    margin-bottom: 56px;
 }
 
+@include media(desktop){
+    .hero-containet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

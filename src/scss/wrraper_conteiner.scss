@@ -1,6 +1,22 @@
-.wrraper-conteiner {
+.wrraper-conteiner{
     background-color: $_bg_color;
-    background-image: url("../img/ellipse_52.png");
-    background-repeat: no-repeat;
-    background-position: right top;
+}
+
+
+@include media(to-desktop) {
+    .wrraper-conteiner {
+    
+        background-image: url("../img/ellipse_52.png");
+        background-repeat: no-repeat;
+        background-position: right top;  
+}
+}
+
+@include media(desktop) {
+    .wrraper-conteiner {   
+        background-image: url("../img/rectangle_14.png"), url("../img/ellipse_35.png") ;
+        background-repeat: no-repeat ,no-repeat ;
+        background-position: left top , left -41px top  ;
+        background-size: 296px 662px,  662px 662px ;
+}
 }
