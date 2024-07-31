@@ -45,3 +45,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+.container,
+.wrapper {
+  max-width: 1440px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1352px;
+  }}

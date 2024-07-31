@@ -1,6 +1,5 @@
 .header-container {
   padding: 16px;
-
 }
 
 .burger {
@@ -96,10 +95,14 @@
 
 
 @include media(desktop) {
+  .header-container {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
   .header-navigation{
     justify-content: center;
     align-items: center;
-    gap: 89px;
+    justify-content: space-between;
   } 
   .open-menu {
     display: none;
