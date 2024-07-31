@@ -29,13 +29,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $_bg_color;
-    background-image: url('../img/bubble_green.png'), url('../img/bubble_purpur.png');
-    background-repeat: no-repeat,no-repeat ;
-    background-position: left 13px top 58px ,left 43px top 246px ;
-    background-size:19px 20px , 18px 18px ;
+   
+    background-image: url('../img/bubble_green.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png');
+    background-repeat: no-repeat,no-repeat ,no-repeat;
+    background-position: left 13px top 58px ,left 43px top 246px ,right -18px top  ;
+    background-size:19px 20px , 18px 18px , 36px 36px;
 }
 .hero-titel-container {
+    padding-top: 8px;
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
