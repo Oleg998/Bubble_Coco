@@ -4,18 +4,50 @@
         <div class="header-navigation">
             <div class="header-logo">
                 <a href="./index.html" class="header-logo" aria-label="Home Page">
-                    <img src="./img/logo_header.png" alt="header-logo" width="16" height="16">
+                    <img class="header-logo-img" src="./img/logo_header.png" alt="header-logo" >
                 </a>
                 <a class="header_text" href="./index.html" role="link" aria-label="Home Page">
                     Bubble CoCo
                 </a>
             </div>
 
-            <button type="button" class="open-menu js-open-menu" aria-expanded="false">
+            <div class="header-menu">
+                <ul class="header-list list">
+                  <li class="header-list-item">
+                    <a href="#home" class="header-list-link">Home</a>
+                  </li>
+                  <li class="header-list-item">
+                    <a href="#benefits" class="header-list-link">Benefits</a>
+                  </li>
+                  <li class="header-list-item">
+                    <a href="#about" class="header-list-link">About the Game</a>
+                  </li>
+                  <li class="header-list-item">
+                    <a href="#advantages" class="header-list-link">Advantages</a>
+                  </li>
+                  <li class="header-list-item">
+                    <a href="#gallery" class="header-list-link">Gallery</a>
+                  </li>
+                  <li class="header-list-item">
+                    <a href="#play" class="header-list-link">How to Play</a>
+                  </li>
+                  <li class="header-list-item">
+                    <a href="#reviews" class="header-list-link">Reviews</a>
+                  </li>
+                </ul>
+            </div>
+
+            <button type="button" class="close-btn" >
+                <svg class="close-menu" width="14" height="14">
+                  <use href="./img/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+
+            <button type="button" class="open-menu" aria-expanded="false">
                 <svg class="burger" width="24" height="24">
                     <use href="./img/sprite.svg#icon-menu"></use>
                 </svg>
             </button>
-
+         
         </div>
 </header>
