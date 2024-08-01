@@ -1,8 +1,10 @@
 .sub-hero-containet {
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .sub-titel-hero {
     font-family: "Paytone One", sans-serif;
@@ -12,7 +14,10 @@
     color: #fff;
     margin-bottom: 8px;
 }
-
+.google{
+    width:160px;
+     height:47px;
+}
 .titel-hero {
     font-family: "Paytone One", sans-serif;
     font-weight: 400;
@@ -20,6 +25,7 @@
     letter-spacing: 0.01em;
     color: #ffe000;
     margin-bottom: 8px;
+    max-width: 223px;
 }
 
 .text-hero {
@@ -29,7 +35,7 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #fff;
-    width: 223px;
+    
     margin-bottom: 24px;
 }
 .hero-containet {
@@ -37,10 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../img/bubble_green.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png');
-    background-repeat: no-repeat,no-repeat ,no-repeat;
-    background-position: left 13px top 58px ,left 43px top 246px ,right -18px top  ;
-    background-size:19px 20px , 18px 18px , 36px 36px;
+   
 }
 
 .google-hero {
@@ -61,10 +64,32 @@
         flex-direction: row;
         justify-content:space-between;
         padding-bottom: 172px;
+
     }
     .hero-img {
         max-width: 404px;
         margin-bottom: 0;
      }
+     .text-hero{
+        font-style: 16px;
+        max-width: 310px;
+        text-align: left;
+
+     }
+     .google{
+        width:201px;
+         height:59px;
+    }
+    .titel-hero{
+        
+        font-style: 48px;
+    }
+    .sub-titel-hero{
+        font-style: 48px;
+    }
+    .sub-hero-containet{
+        justify-content: start;
+        align-items: start;
+    }
 
 }
