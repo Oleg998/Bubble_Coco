@@ -5,28 +5,47 @@
     align-items: center;
     justify-content: center;
 }
+
 .logo {
     margin-top: 24px;
     margin-bottom: 8px;
     width: 22px;
     height: 22px;
 }
+
 .disclaimer-titel {
-margin-bottom: 16px;
-font-family:"Paytone One", sans-serif;
-font-weight: 400;
-font-size: 28px;
-letter-spacing: 0.01em;
-text-transform: uppercase;
-color: #ffe000;
+    margin-bottom: 16px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #ffe000;
 }
+
 .disclaimer-text {
-font-family:"Poppins", sans-serif;;
-font-weight: 400;
-font-size: 13px;
-letter-spacing: 0.01em;
-text-align: center;
-color: #fff;
-max-width: 288px;
-margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+    ;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    max-width: 288px;
+    margin-bottom: 24px;
+}
+
+@include media(desktop) {
+    .disclaimer {
+        box-shadow: 0 8px 16px 0 rgba(55, 34, 130, 0.25);
+        border-radius: 20px;
+        width: 838px;
+        margin: 0 auto;
+    }
+
+    .disclaimer-text {
+        max-width: 774px;
+    }
+
+
 }
