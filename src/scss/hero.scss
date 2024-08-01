@@ -53,12 +53,18 @@
 .hero-img {
    max-width: 279px;
    margin-bottom: 56px;
+   max-width: 279px;
 }
 
 @include media(desktop){
     .hero-containet {
         flex-direction: row;
         justify-content:space-between;
+        padding-bottom: 172px;
     }
+    .hero-img {
+        max-width: 404px;
+        margin-bottom: 0;
+     }
 
 }
