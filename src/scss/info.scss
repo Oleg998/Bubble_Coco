@@ -65,15 +65,19 @@ color: #1e0e3f;
 
 
 @include media(desktop)  {
+    .text-info {
+        font-style: 16px;
+    }
     .info-img{
         max-width: 304px;
     }
     .info-sub-conteiner{
-        max-width: 525px;
+        
         align-items: baseline;
         justify-content: start;
     }
     .info_container {
+        padding-bottom: 142px;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
