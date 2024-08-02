@@ -1,6 +1,6 @@
 .header-container {
   padding: 32px;
-  
+  max-width: 288px;
 }
 
 .burger {
@@ -30,6 +30,7 @@
 }
 
 .header-navigation {
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,6 +98,7 @@
 
 @include media(desktop) {
   .header-container {
+    max-width: 1050px;
     padding-top: 56px;
     padding-bottom: 56px;
   }
