@@ -1,0 +1,27 @@
+.tac-subtitel {
+    margin-bottom: 8px;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    font-family:  "Poppins", sans-serif;;
+     
+}
+.tac-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.tac-item{
+    font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.01em;
+color: #fff;
+}
+
+.tac_sublist {
+        padding-bottom: 226px;
+}
