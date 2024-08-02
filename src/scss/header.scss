@@ -1,6 +1,6 @@
 .header-container {
   padding: 32px;
-  max-width: 288px;
+  
 }
 
 .burger {
@@ -29,11 +29,13 @@
   gap: 4px;
 }
 
-.header-navigation {
-  
+.header-navigation {  
+  margin:  0 auto;
+  max-width: 288px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
 }
 
 .header-logo-img {
@@ -98,10 +100,11 @@
 
 @include media(desktop) {
   .header-container {
-    max-width: 1050px;
+    
     padding: 56px 195px;
   }
   .header-navigation{
+    max-width: 1050px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
@@ -127,6 +130,7 @@
     display: flex;
     gap: 41px;
   }
+ 
 }
 
 @include media(to-desktop) {
