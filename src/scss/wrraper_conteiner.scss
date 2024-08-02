@@ -14,10 +14,10 @@
     }
     .pp-wrraper-conteiner {
         background-color: $_bg_color;
-        background-image: url('../img/bubble_orang.png'), url('../img/bubble_green.png'), url('../img/bubble_blue.png');
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: right 16px bottom 70px, left 50px bottom 12px, right -29px bottom 355px;
-        background-size: 30px 30px, 20px 20px, 58px 58px;
+        background-image: url('../img/bubble_orang.png'), url('../img/bubble_green.png'), url('../img/bubble_blue.png'), url("../img/ellipse_52-p.png");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: right 16px bottom 70px, left 50px bottom 12px, right -29px bottom 355px , left top;
+        background-size: 30px 30px, 20px 20px, 58px 58px , auto;
     }
 }
 
