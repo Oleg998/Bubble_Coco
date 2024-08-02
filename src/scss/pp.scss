@@ -1,0 +1,38 @@
+.pp-text{
+margin-bottom: 32px;
+margin-top: 32px;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.01em;
+color: #fff;
+}
+.pp-subtaitel {
+font-weight: 500;
+font-size: 25px;
+letter-spacing: 0.01em;
+color: #fff;
+margin-bottom: 8px;
+}
+
+.pp-subtext {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #fff; 
+}
+
+.pp-li-titel {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #fff; 
+}
+.pp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+.pp-container  {
+    padding-bottom: 197px;
+}
