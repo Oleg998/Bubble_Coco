@@ -12,6 +12,13 @@
         background-size: 36px 36px, auto, 19px 20px, 18px 18px;
 
     }
+    .pp-wrraper-conteiner {
+        background-color: $_bg_color;
+        background-image: url('../img/bubble_orang.png'), url('../img/bubble_green.png'), url('../img/bubble_blue.png');
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: right 16px bottom 70px, left 50px bottom 12px, right -29px bottom 355px;
+        background-size: 30px 30px, 20px 20px, 58px 58px;
+    }
 }
 
 @include media(desktop) {
@@ -29,12 +36,12 @@
         background-position: right 86px bottom 73px, right 277px top 570px, right top 60px, right top, right top;
         background-size: 109px 109px, 67px 67px, auto, auto, auto
     }
+    .pp-wrraper-conteiner {
+        background-color: $_bg_color;
+        background-image: url('../img/bubble_orang.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png'), url("../img/rectangle_14.png"), url("../img/ellipse_35.png"), url('../img/elips_38.png'), url('../img/elips_39.png');
+        background-repeat: no-repeat, no-repeat, no-repeat,no-repeat, no-repeat,no-repeat, no-repeat;
+        background-position: right 139px bottom 56px, right 343px bottom 32px, left 53px bottom 105px,  left top, left -41px top ,center bottom -126px,center  bottom -125px;
+        background-size: 84px 84px, 49px 49px, 70px 70px, 296px 662px, 662px 662px , auto,auto;
+    }
 }
 
-.pp-wrraper-conteiner {
-    background-color: $_bg_color;
-    background-image: url('../img/bubble_orang.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png'), url("../img/rectangle_14.png"), url("../img/ellipse_35.png"), url('../img/elips_38.png'), url('../img/elips_39.png');
-    background-repeat: no-repeat, no-repeat, no-repeat,no-repeat, no-repeat,no-repeat, no-repeat;
-    background-position: right 139px bottom 56px, right 343px bottom 32px, left 53px bottom 105px,  left top, left -41px top ,center bottom -126px,center  bottom -125px;
-    background-size: 84px 84px, 49px 49px, 70px 70px, 296px 662px, 662px 662px , auto,auto;
-}

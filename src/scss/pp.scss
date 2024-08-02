@@ -6,6 +6,11 @@ font-size: 18px;
 letter-spacing: 0.01em;
 color: #fff;
 }
+.pp-container {
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 96px;
+}
 .pp-subtaitel {
 font-weight: 500;
 font-size: 25px;
@@ -33,6 +38,8 @@ margin-bottom: 8px;
     gap: 32px;
     margin-bottom: 32px;
 }
-.pp-container  {
-    padding-bottom: 197px;
+@include media(desktop)  {
+    .pp-container {
+        padding-bottom: 196px;
+     }
 }
