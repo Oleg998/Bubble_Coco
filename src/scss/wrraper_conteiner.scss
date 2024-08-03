@@ -4,6 +4,15 @@
 
 
 @include media(to-desktop) {
+    .wrraper-conteiner-play {
+        background-color: $_bg_color;
+        background-image: url("../img/bubble_blue.png") ,  url("../img/bubble_orang.png") , url("../img/bubble_green.png") , url("../img/bubble_purpur.png"),  url("../img/bubble_orang.png"),url("../img/bubble_green.png"), url("../img/bubble_blue.png"), url("../img/ellipse-49p.png"),url("../img/ellipse-50p.png"),url("../img/ellipse51-p.png");
+        background-repeat: no-repeat ;
+        background-position: right 26px top 5px  ,  right top 75px ,left 106px top 50px, left 20px top 100px,  left 224px bottom 300px,   left 54px bottom 228px,   left -25px bottom 239px,  center top 50px, center top 20px, center top ;
+        background-size: 58px , 30px , 20px ,  15px , 23px , 20px , 49px ,auto ,auto ,auto ;
+    } 
+
+
     .wrraper-conteiner {
 
         background-image: url('../img/bubble_blue.png'), url("../img/ellipse_52.png"), url('../img/bubble_green.png'), url('../img/bubble_purpur.png');
@@ -43,5 +52,12 @@
         background-position: right 139px bottom 56px, right 343px bottom 32px, left 53px bottom 105px,  left top, left -41px top ,center bottom -126px,center  bottom -125px;
         background-size: 84px 84px, 49px 49px, 70px 70px, 296px 662px, 662px 662px , auto,auto;
     }
+      .wrraper-conteiner-play {
+        background-color: $_bg_color;
+        background-image: url("../img/bubble_blue.png"),  url("../img/bubble_orang.png"), url("../img/bubble_purpur.png"), url("../img/ellipse-49p.png"),url("../img/ellipse-50p.png"),url("../img/ellipse51-p.png");
+        background-repeat:  no-repeat , no-repeat , no-repeat ,no-repeat , no-repeat, no-repeat;
+        background-position: right 129px bottom 650px , left 129px bottom 493px , left 408px bottom 408px , center top , center top , center top  ;
+        background-size: 124px , 73px , 39px , 104% ,cover ,cover ;
+    } 
 }
 
