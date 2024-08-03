@@ -48,31 +48,7 @@
     font-size: 10px;
     color: #fff;
 }
-@include media(desktop) {
-    .swiper {
-        margin: 0 auto ;
-        max-width: 1188px;
-        
-    }
- 
-    .swiper-slide {
-        max-width: 304px;
-    }
-    .gallery__swiper{
-        padding-bottom: 107px;
-    }
-  .rev-btn {
-    fill: #ABA1C8;
-   
-  }
-  .open-right:hover,
-  .open-right:focus ,
-  .open-left:hover,
-  .open-left:focus {
-    background-color:5B00D0
-  }
-
-  .open-right {
+.open-right {
     position: absolute;
     top: 30%;
     display: block;
@@ -104,5 +80,34 @@
     margin-left: auto;
     transition: background-color 300ms ease-in-out;
   }
+
+  .open-right:hover,
+  .open-right:focus ,
+  .open-left:hover,
+  .open-left:focus {
+    background-color:5B00D0
+  }
+  
+
+@include media(desktop) {
+    .swiper {
+        margin: 0 auto ;
+        max-width: 1188px;
+        
+    }
+ 
+    .swiper-slide {
+        max-width: 304px;
+    }
+    .gallery__swiper{
+        padding-bottom: 107px;
+    }
+  .rev-btn {
+    fill: #ABA1C8;
+   
+  }
+ 
+
+
   .rev-titel {padding-bottom: 64px;}
 }
