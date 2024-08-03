@@ -1,0 +1,74 @@
+.play-titel{
+font-family:"Paytone One", sans-serif;
+font-weight: 400;
+font-size: 28px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #5b01d0;
+padding-top: 108px;
+margin-bottom: 24px;
+}
+.play-conteiner {
+    background-color: $_bg_color;
+    background-image: url("../img/ellipse-49p.png"),url("../img/ellipse-50p.png"),url("../img/ellipse51-p.png");
+    background-repeat: no-repeat , no-repeat, no-repeat;
+    background-position: center top 50px, center top 20px, center top ;
+    background-size: auto ,auto ,auto ;
+}
+
+.play-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 75px;
+}
+.play-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.play-text {
+font-family: "Paytone One", sans-serif;;
+font-weight: 400;
+font-size: 56px;
+letter-spacing: 0.01em;
+color: #ffe000;
+}
+.play-subtext {
+font-weight: 400;
+font-size: 13px;
+letter-spacing: 0.01em;
+color: #1e0e3f;
+max-width: 246px;
+}
+
+@include media(desktop) {
+    .play-titel{
+        font-style: 48px;
+        margin-bottom: 64px;
+
+    }
+    .play-subtext {       
+        font-size: 16px;
+        max-width: 250px;
+}
+.play-item{
+    gap: 32px;
+}
+.play-list {
+    margin: 0 auto;
+    max-width:1182px;
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 45px 224px;
+    padding-bottom: 119px;
+}
+.play-item:nth-child(3){order :-1}  
+.play-item:nth-child(1){order :-1}  
+}

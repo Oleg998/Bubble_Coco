@@ -1,0 +1,108 @@
+.rev-titel {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #5b01d0;
+    margin-bottom: 24px;
+}
+.swiper-wrapper {
+    display: block;
+    position: absolute;
+    left: 80px;
+}
+.swiper {
+   
+ 
+    position: relative;
+    max-width: 368px;
+}
+
+.swiper-slide {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 180px;
+    background-color: $_bg_color;
+    border-radius: 12px;
+}
+
+.rev_img {
+    width: 82px;
+    height: 13px;
+}
+
+.rev-text {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    
+}
+
+.sub_text {
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+}
+@include media(desktop) {
+    .swiper {
+        margin: 0 auto ;
+        max-width: 1188px;
+        
+    }
+ 
+    .swiper-slide {
+        max-width: 304px;
+    }
+    .gallery__swiper{
+        padding-bottom: 107px;
+    }
+  .rev-btn {
+    fill: #ABA1C8;
+   
+  }
+  .open-right:hover,
+  .open-right:focus ,
+  .open-left:hover,
+  .open-left:focus {
+    background-color:5B00D0
+  }
+
+  .open-right {
+    position: absolute;
+    top: 30%;
+    display: block;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: #E9DFFF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+    transition: background-color 300ms ease-in-out;
+  }
+   .open-left{
+    position: relative;
+    top: -90px;
+    display: block;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: #E9DFFF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+    transition: background-color 300ms ease-in-out;
+  }
+  .rev-titel {padding-bottom: 64px;}
+}

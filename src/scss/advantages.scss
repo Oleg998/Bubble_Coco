@@ -1,0 +1,84 @@
+.advantages-titel {
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #ffe000;
+  margin-bottom: 40px;
+  padding-top: 16px;
+}
+.advantages-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  padding-bottom: 72px;
+}
+
+.adv-subtitel {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.adv-text {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.adv-img {
+    width: 43px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+
+.adv-img1 {
+  width: 21px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+.adv-img2 {
+  width: 39px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+.adv-conteiner {
+  background-color: $_bg_color;
+}
+.adv-item {
+  display: flex;
+  align-items: center;
+    text-align: center;
+  flex-direction: column;
+  justify-content: center;  
+  max-width:  288px;
+  justify-content: center;
+}
+
+@include media(desktop)  { 
+    .advantages-list {
+        display: flex;
+        flex-direction: row;
+        gap :150px 104px ;  
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 72px;
+      }
+      .advantages-titel{
+        font-style: 48px;
+      }
+      .adv-subtitel{
+        font-size: 20px;
+      } 
+      .adv-text{
+        font-style: 16px;
+      }
+}
