@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bubble Coco</title>
     
-    <script type="module" crossorigin src="/bubble-coco/assets/main-d4956695.js"></script>
-    <link rel="stylesheet" href="/bubble-coco/assets/main-f08253f6.css">
+    <script type="module" crossorigin src="/bubble-coco/assets/vendor-3da50232.js"></script>
+    <script type="module" crossorigin src="/bubble-coco/assets/main-20d36823.js"></script>
+    <link rel="stylesheet" href="/bubble-coco/assets/main-67c762c6.css">
+    <link rel="stylesheet" href="/bubble-coco/assets/vendor-b51df72b.css">
   </head>
   <body>
 
@@ -45,23 +47,23 @@
                     <a href="/bubble-coco/#gallery" class="header-list-link">Gallery</a>
                   </li>
                   <li class="header-list-item">
-                    <a href="./page-3.html" class="header-list-link">How to Play</a>
+                    <a href="/bubble-coco/#play" class="header-list-link">How to Play</a>
                   </li>
                   <li class="header-list-item">
-                    <a href="./page-2.html"  role="link" class="header-list-link">Reviews</a>
+                    <a href="/bubble-coco/#reviews"  role="link" class="header-list-link">Reviews</a>
                   </li>
                 </ul>
             </div>
 
             <button type="button" class="close-btn" >
                 <svg class="close-menu" width="14" height="14">
-                  <use href="/bubble-coco/assets/sprite-8b3eecbd.svg#icon-close"></use>
+                  <use href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-close"></use>
                 </svg>
               </button>
 
             <button type="button" class="open-menu">
                 <svg class="burger" width="24" height="24">
-                    <use href="/bubble-coco/assets/sprite-8b3eecbd.svg#icon-menu"></use>
+                    <use href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-menu"></use>
                 </svg>
             </button>
          
@@ -82,7 +84,7 @@
         <svg class="google" >
           <use
             class="google-hero"
-            href="/bubble-coco/assets/sprite-8b3eecbd.svg#icon-cta-button"
+            href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-cta-button"
           ></use>
           </svg>
         </a>
@@ -131,7 +133,7 @@
         </li>
         <li class="info-items">
            <svg class="online" width="74" height="60">
-               <use class="online-info" href="/bubble-coco/assets/sprite-8b3eecbd.svg#icon-done_outline"></use>
+               <use class="online-info" href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-done_outline"></use>
              </svg>
            <p class="disclaimer-info-subtext" >Online/Offline</p>
         </li>
@@ -151,7 +153,7 @@
         </ul>
     
         <a href="https://play.google.com/" class="info-logo-google"> <svg class="google" width="200" height="59">
-            <use class="google-info" href="/bubble-coco/assets/sprite-8b3eecbd.svg#icon-cta-button-y"></use>
+            <use class="google-info" href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-cta-button-y"></use>
           </svg></a> </div>
     
     <picture class="info-img" >
@@ -164,18 +166,107 @@
     </div>
     
     
-    
-    <section class="play-section">
+    <section class="advantages-section  container " id="advantages">
+    <div class="adv-conteiner">
+         <h3 class="advantages-titel">Advantages</h3>
+        <ul class="advantages-list" >
+            <li class="adv-item"><img class="adv-img" src="data:image/png;base64,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" alt="Engaging Storyline"> <h4 class="adv-subtitel">Engaging Storyline </h4><p class="adv-text">A captivating tale of Coco and her chicks adds depth to your gaming experience</p></li>
+            <li class="adv-item"><img class="adv-img1" src="data:image/png;base64,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" alt="Interactive Elements"><h4 class="adv-subtitel"> Interactive Elements</h4><p class="adv-text">Special bubbles and boosters add a strategic layer to the gameplay.</p></li>
+            <li class="adv-item"><img class="adv-img" src="data:image/png;base64,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" alt="Variety of Levels"><h4 class="adv-subtitel"> Variety of Levels</h4><p class="adv-text">Over 500 levels with unique challenges keep the game exciting and fresh.</p></li>
+            <li class="adv-item"><img class="adv-img" src="/bubble-coco/assets/heart-759725a2.png" alt="Family-Friendly"><h4 class="adv-subtitel">Family-Friendly </h4><p class="adv-text">Suitable for players of all ages with its easy-to-learn mechanics.</p></li>
+            <li class="adv-item"><img class="adv-img2" src="/bubble-coco/assets/clock-1ad8698f.png" alt="Regular Updates"><h4 class="adv-subtitel"> Regular Updates</h4><p class="adv-text">New levels and events are regularly added to keep the game interesting.</p></li>
+            <li class="adv-item"><img class="adv-img" src="data:image/png;base64,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" alt="Social Features"><h4 class="adv-subtitel"> Social Features</h4><p class="adv-text">Compete with friends and share your progress on social media.</p></li>
+            
+        </ul> </div>
+ 
+       
 
 </section>
-    <section class="reviews-section">
+    <section class="play-section" id="play" >
+    <div class=" play-conteiner container">
+        <h2 class="play-titel">How to play</h2>
+        <ul class="play-list">
+            <li class="play-item">
+                <p class="play-text">1</p>
+                <p class=" play-subtext">Aim and shoot bubbles to make matches of three or more of the same color.</p>
+            </li>
+            <li class="play-item">
+                <p class="play-text">2</p>
+                <p class=" play-subtext">Clear all bubbles to complete the level.</p>
+            </li>
+            <li class="play-item">
+                <p class="play-text" >3</p>
+                <p class=" play-subtext" >Utilize special bubbles like Bomb, Rainbow, and more to overcome tricky obstacles.</p>
+            </li>
+            <li class="play-item" >
+                <p class="play-text" >4</p>
+                <p class=" play-subtext" >Plan your moves strategically to earn the maximum stars.</p>
+            </li>
+        </ul>
 
+    </div>
 </section>
+    <section class="reviews-section" id="reviews">
+  <div class="reviews container">
+    <h2 class="rev-titel">Reviews</h2>
+    <div class="gallery__swiper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="rev_img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAAQCAYAAAACjcH6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK8SURBVHgB7ViNcdMwFP6UY4AwAe4GYQKcCQgT4E6QZALMBIQJmhGyAWECskHcCeoNxHvya+wokiy5OnrH9btzlcrSp/enp2cBb/gn0GfMx8bMRghKfpARxLdDZhBnjYwgvoKeCnmxGnNI0BmEikmQEwqfczqYDUec65jIS0BJnF+REx1fFRoyGyH4xMZDJpDBFtQUyOtg5mJHLJALneEWuRxsAqZzcNCWswBBic5wRcZIrszfnFHXc2Vx8MVweR1cSht08LuBADaqy6+ZSS2NPUDd3fYJHy94u2gfGXMaw8Y7WSNa4mwTOHuDkVM851GIs3B0rwbyrlP09nL2AcPyVjTmAIeMSgh4Cz0ATuFcaKBxTwRH+IWqifMbYqHxmwUNOLigpk7aVRo/iW8Dv4x83vxCvN6t6H0IcFbE+QOITnEn4vzCeqsrweKUPYhA7ci4eGU1tsQXVWUR50acHFJ2NFgGfMzDeq/DA8PBYnHG6n0VLMpBtBHP2uCo+B5rtAEfK7vzOLmRqDghAUFlO6OtYoLF4qzEyYWDc5uqt3D6skMreh+HncpJ0uDsEOqoCiwxAWK88+0L49waEyDGe3BwLmN2hJOzMQ4ure5WFXiPCTCBqPB080Jhrz7g3u6eOQiey08bpefAi4G70nlJVeWfO6mqGlRRNuYvqCbdsmj3B6CrtK2k5a205NwLXPJkhSnoDceH1R3vCPl/Utl8ZTjKu/R8pF9Ha61UlNKy3lvhbKRvatn8PK8xfL3ecWUzbdU/pOxxuAvM9QD3d9s4CTJX22WnuWqhdDjlKoNTFM19sq8smEvWKpEILjdF9wJD2c/Y81qYAJFxP9wFYo+zfnSkWEugwhzg/vd1aqoK3W+Z9R6dxcIYp1eOMR08czgV7bTng4z5Uh0sem8C69U69IWv897vvBr+Fz3e8Ir4CxR1YL6R70ysAAAAAElFTkSuQmCC" alt="star" />
+            <p class="rev-text">
+              Love the cute characters and the colorful gameplay. It's always
+              exciting to see what's next!
+            </p>
+            <p class="sub_text">CocoLover88</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="rev_img" src="../img/rating 1.png" alt="star" />
+            <p class="rev-text">
+              Addictive and fun! Great way to pass time and the challenges are
+              just right
+            </p>
+            <p class="sub_text">BubbleMaster53</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="rev_img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAAQCAYAAAACjcH6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK8SURBVHgB7ViNcdMwFP6UY4AwAe4GYQKcCQgT4E6QZALMBIQJmhGyAWECskHcCeoNxHvya+wokiy5OnrH9btzlcrSp/enp2cBb/gn0GfMx8bMRghKfpARxLdDZhBnjYwgvoKeCnmxGnNI0BmEikmQEwqfczqYDUec65jIS0BJnF+REx1fFRoyGyH4xMZDJpDBFtQUyOtg5mJHLJALneEWuRxsAqZzcNCWswBBic5wRcZIrszfnFHXc2Vx8MVweR1cSht08LuBADaqy6+ZSS2NPUDd3fYJHy94u2gfGXMaw8Y7WSNa4mwTOHuDkVM851GIs3B0rwbyrlP09nL2AcPyVjTmAIeMSgh4Cz0ATuFcaKBxTwRH+IWqifMbYqHxmwUNOLigpk7aVRo/iW8Dv4x83vxCvN6t6H0IcFbE+QOITnEn4vzCeqsrweKUPYhA7ci4eGU1tsQXVWUR50acHFJ2NFgGfMzDeq/DA8PBYnHG6n0VLMpBtBHP2uCo+B5rtAEfK7vzOLmRqDghAUFlO6OtYoLF4qzEyYWDc5uqt3D6skMreh+HncpJ0uDsEOqoCiwxAWK88+0L49waEyDGe3BwLmN2hJOzMQ4ure5WFXiPCTCBqPB080Jhrz7g3u6eOQiey08bpefAi4G70nlJVeWfO6mqGlRRNuYvqCbdsmj3B6CrtK2k5a205NwLXPJkhSnoDceH1R3vCPl/Utl8ZTjKu/R8pF9Ha61UlNKy3lvhbKRvatn8PK8xfL3ecWUzbdU/pOxxuAvM9QD3d9s4CTJX22WnuWqhdDjlKoNTFM19sq8smEvWKpEILjdF9wJD2c/Y81qYAJFxP9wFYo+zfnSkWEugwhzg/vd1aqoK3W+Z9R6dxcIYp1eOMR08czgV7bTng4z5Uh0sem8C69U69IWv897vvBr+Fz3e8Ir4CxR1YL6R70ysAAAAAElFTkSuQmCC" alt="star" />
+            <p class="rev-text">
+              It's a blast to play. The events are super fun and I love
+              competing against my friends
+            </p>
+            <p class="sub_text">CasualGamer59</p>
+          </div>
+        </div>
+        <button type="button" class="open-right">
+            <svg class="rev-btn" width="8" height="12">
+                <use href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-ritht"></use>
+            </svg>
+        </button>
+
+        <button type="button" class="open-left">
+            <svg class="rev-btn" width="8" height="12">
+                <use href="/bubble-coco/assets/sprite-bc2fd63f.svg#icon-left"></use>
+            </svg>
+        </button>
+      </div>
+     
+    </div>
+  </div>
+</section>
+
 
   </main>
   
     <footer class="footer">
+  <div class="footer-conteiner conteiner"> 
+    <ul class="foo-list">
+        <li class="foo-item"><a href="./page-2.html">Privacy policy</a></li>
+        <li class="foo-item" ><a href="./page-3.html">Terms and conditions </a></li>
+        <li class="foo-item center-text " >All rights reserved bestjoingame.com  |   2024</li>
+        
+    </ul>
 
+</div>
 </footer>
     
 
