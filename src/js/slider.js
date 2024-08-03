@@ -1,4 +1,6 @@
 import Swiper from 'swiper';
+import 'swiper/css/navigation';
+import 'swiper/css/keyboard';
 import { Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css/bundle'
 
