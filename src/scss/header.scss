@@ -1,6 +1,6 @@
 .header-container {
-  padding: 32px;
-  
+  padding: 16px;
+
 }
 
 .burger {
@@ -29,8 +29,8 @@
   gap: 4px;
 }
 
-.header-navigation {  
-  margin:  0 auto;
+.header-navigation {
+  margin: 0 auto;
   max-width: 288px;
   display: flex;
   align-items: center;
@@ -45,7 +45,9 @@
 
 .close-btn {
   display: none;
-  z-index: 20;
+  position: fixed;
+  right: 0;
+  z-index: 200;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -100,15 +102,17 @@
 
 @include media(desktop) {
   .header-container {
-    
+
     padding: 56px 195px;
   }
-  .header-navigation{
+
+  .header-navigation {
     max-width: 1050px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-  } 
+  }
+
   .open-menu {
     display: none;
   }
@@ -121,16 +125,18 @@
     width: 32px;
     height: 32px;
   }
+
   .header-list-link {
-    
+
     font-size: 16px;
 
   }
+
   .header-list {
     display: flex;
     gap: 41px;
   }
- 
+
 }
 
 @include media(to-desktop) {
@@ -142,9 +148,10 @@
     position: fixed;
     text-align: center;
     justify-content: center;
-    right: -50%;
+    right: -57%;
     top: 0;
-    width: 50%;
+    z-index: 100;
+    width: 57%;
     height: 100vh;
     background-color: #8951FF;
     transition: right 0.3s ease 0s;

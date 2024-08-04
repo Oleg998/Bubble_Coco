@@ -1,34 +1,40 @@
-.info-titel{
-padding-top: 116px;
-font-family: "Paytone One", sans-serif;;
-font-weight: 400;
-font-size: 28px;
-letter-spacing: 0.01em;
-text-align: center;
-color: #1e0e3f;
-margin-bottom: 16px;
+.info-titel {
+    padding-top: 116px;
+    font-family: "Paytone One", sans-serif;
+    ;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #1e0e3f;
+    margin-bottom: 16px;
 }
-.text-info{
-font-family: "Poppins", sans-serif;
-font-weight: 400;
-font-size: 13px;
-letter-spacing: 0.01em;
-color: #1e0e3f;
+
+.text-info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #1e0e3f;
 }
+
 .info-list {
-    
+
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-bottom: 32px;
 }
+
 .google-info {
     fill: yellow;
     stroke: transparent;
 }
-.info-logo-google{
+
+.info-logo-google {
     margin-bottom: 48px;
 }
+
 .info-img {
     margin-bottom: 61px;
     max-width: 284px;
@@ -51,32 +57,35 @@ color: #1e0e3f;
 
 @include media(to-desktop) {
     .info_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-    background-color: $_bg_color;
-    background-image: url('../img/bubble_blue.png'), url('../img/bubble_purpur.png'),  url('../img/Ellipse_39.png') ,url('../img/Ellipse_38.png') , url('../img/Ellipse_40.png');
-    background-repeat: no-repeat,no-repeat, no-repeat, no-repeat, no-repeat ;
-    background-position: left 65px top 51px ,left 10px top 86px , center top 76px , center top 32px ,center top 12px;
-    background-size:18px 18px , 34px 34px , auto 80% , auto 100%, auto 100% ; 
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: $_bg_color;
+        background-image: url('../img/bubble_blue.png'), url('../img/bubble_purpur.png'), url('../img/Ellipse_39.png'), url('../img/Ellipse_38.png'), url('../img/Ellipse_40.png');
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: left 65px top 51px, left 10px top 86px, center top 76px, center top 32px, center top 12px;
+        background-size: 18px 18px, 34px 34px, auto 80%, cover, cover;
+    }
 }
 
 
-@include media(desktop)  {
+@include media(desktop) {
     .text-info {
         font-size: 16px;
     }
-    .info-img{
-        
+
+    .info-img {
+
         max-width: 415px;
     }
-    .info-sub-conteiner{
+
+    .info-sub-conteiner {
         max-width: 625px;
         align-items: baseline;
         justify-content: start;
     }
+
     .info_container {
         padding-bottom: 142px;
         display: flex;
@@ -85,43 +94,47 @@ color: #1e0e3f;
         justify-content: center;
         gap: 85px;
     }
+
     .info-titel {
-       
+
         font-size: 48px;
         padding-top: 0;
     }
 
-    .disclaimer-info-text{
+    .disclaimer-info-text {
         font-family: "Paytone One", sans-serif;
         font-weight: 400;
         font-size: 50px;
         letter-spacing: 0.01em;
         text-align: center;
         color: #5b00d0;
-        }
-        .disclaimer-info-subtext {
-            font-weight: 400;
+    }
+
+    .disclaimer-info-subtext {
+        font-weight: 400;
         font-size: 18px;
         letter-spacing: 0.01em;
         text-align: center;
         color: #000;
-        }
-        .disclaimer_info{
-            margin: 0 auto;
-            max-width: 1058px;
-            padding-top: 104px;
-            display: flex;
-            gap: 157px;
-            align-items: flex-end;
-            justify-content: center;
+    }
 
-        }
-        .info-items {
-            margin-bottom: 64px;
-            display: flex;
-            gap: 24px;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    .disclaimer_info {
+        margin: 0 auto;
+        max-width: 1058px;
+        padding-top: 104px;
+        display: flex;
+        gap: 157px;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    .info-items {
+        margin-bottom: 64px;
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

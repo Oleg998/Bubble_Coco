@@ -6,11 +6,11 @@
 @include media(to-desktop) {
     .wrraper-conteiner-play {
         background-color: $_bg_color;
-        background-image: url("../img/bubble_blue.png") ,  url("../img/bubble_orang.png") , url("../img/bubble_green.png") , url("../img/bubble_purpur.png"),  url("../img/bubble_orang.png"),url("../img/bubble_green.png"), url("../img/bubble_blue.png"), url("../img/ellipse-49p.png"),url("../img/ellipse-50p.png"),url("../img/ellipse51-p.png");
-        background-repeat: no-repeat ;
-        background-position: right 26px top 5px  ,  right top 75px ,left 106px top 50px, left 20px top 100px,  left 224px bottom 300px,   left 54px bottom 228px,   left -25px bottom 239px,  center top 50px, center top 20px, center top ;
-        background-size: 58px , 30px , 20px ,  15px , 23px , 20px , 49px ,auto ,auto ,auto ;
-    } 
+        background-image: url("../img/bubble_blue.png"), url("../img/bubble_orang.png"), url("../img/bubble_green.png"), url("../img/bubble_purpur.png"), url("../img/bubble_orang.png"), url("../img/bubble_green.png"), url("../img/bubble_blue.png"), url("../img/ellipse-49p.png"), url("../img/ellipse-50p.png"), url("../img/ellipse51-p.png");
+        background-repeat: no-repeat;
+        background-position: right 26px top 5px, right top 75px, left 106px top 50px, left 20px top 100px, left 224px bottom 300px, left 54px bottom 228px, left -25px bottom 239px, center top 50px, center top 20px, center top;
+        background-size: 58px, 30px, 20px, 15px, 23px, 20px, 49px, cover, cover, cover;
+    }
 
 
     .wrraper-conteiner {
@@ -21,17 +21,19 @@
         background-size: 36px 36px, auto, 19px 20px, 18px 18px;
 
     }
+
     .pp-wrraper-conteiner {
         background-color: $_bg_color;
         background-image: url('../img/bubble_orang.png'), url('../img/bubble_green.png'), url('../img/bubble_blue.png'), url("../img/ellipse_52-p.png");
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-        background-position: right 16px bottom 70px, left 50px bottom 12px, right -29px bottom 355px , left top;
-        background-size: 30px 30px, 20px 20px, 58px 58px , auto;
+        background-position: right 16px bottom 70px, left 50px bottom 12px, right -29px bottom 355px, left top;
+        background-size: 30px 30px, 20px 20px, 58px 58px, auto;
     }
 }
 
 @include media(desktop) {
     .wrraper-conteiner {
+        padding-bottom: 104px;
         background-image: url('../img/bubble_orang.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png'), url('../img/bubble_orang.png'), url('../img/bubble_blue.png'), url('../img/bubble_green.png'), url("../img/rectangle_14.png"), url("../img/ellipse_35.png");
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-position: right 20px top 792px, right 103px top 424px, right -8px top 92px, left 775px top 324px, left 642px top 642px, left 670px top 172px, left -20px top 431px, left 105px top 290px, left top, left -41px top;
@@ -42,22 +44,23 @@
         background-color: $_bg_color;
         background-image: url('../img/bubble_orang.png'), url('../img/bubble_blue.png'), url('../img/Ellipse_39.png'), url('../img/Ellipse_38.png'), url('../img/Ellipse_40.png');
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-        background-position: right 86px bottom 73px, right 277px top 570px, right top 60px, right top, right top;
-        background-size: 109px 109px, 67px 67px, auto, auto, auto
+        background-position: right 86px bottom 73px, right 277px top 570px, center top 50px, center top, center top;
+        background-size: 109px 109px, 67px 67px, cover, cover, cover;
     }
+
     .pp-wrraper-conteiner {
         background-color: $_bg_color;
         background-image: url('../img/bubble_orang.png'), url('../img/bubble_purpur.png'), url('../img/bubble_blue.png'), url("../img/rectangle_14.png"), url("../img/ellipse_35.png"), url('../img/elips_38.png'), url('../img/elips_39.png');
-        background-repeat: no-repeat, no-repeat, no-repeat,no-repeat, no-repeat,no-repeat, no-repeat;
-        background-position: right 139px bottom 56px, right 343px bottom 32px, left 53px bottom 105px,  left top, left -41px top ,center bottom -126px,center  bottom -125px;
-        background-size: 84px 84px, 49px 49px, 70px 70px, 296px 662px, 662px 662px , auto,auto;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: right 139px bottom 56px, right 343px bottom 32px, left 53px bottom 105px, left top, left -41px top, center bottom -126px, center bottom -125px;
+        background-size: 84px 84px, 49px 49px, 70px 70px, 296px 662px, 662px 662px, auto, auto;
     }
-      .wrraper-conteiner-play {
-        background-color: $_bg_color;
-        background-image: url("../img/bubble_blue.png"),  url("../img/bubble_orang.png"), url("../img/bubble_purpur.png"), url("../img/ellipse-49p.png"),url("../img/ellipse-50p.png"),url("../img/ellipse51-p.png");
-        background-repeat:  no-repeat , no-repeat , no-repeat ,no-repeat , no-repeat, no-repeat;
-        background-position: right 129px bottom 650px , left 129px bottom 493px , left 408px bottom 408px , center top , center top , center top  ;
-        background-size: 124px , 73px , 39px , 104% ,cover ,cover ;
-    } 
-}
 
+    .wrraper-conteiner-play {
+        background-color: $_bg_color;
+        background-image: url("../img/bubble_blue.png"), url("../img/bubble_orang.png"), url("../img/bubble_purpur.png"), url("../img/ellipse-49p.png"), url("../img/ellipse-50p.png"), url("../img/ellipse51-p.png");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: right 129px bottom 650px, left 129px bottom 493px, left 408px bottom 408px, center top, center top, center top;
+        background-size: 124px, 73px, 39px, 104%, cover, cover;
+    }
+}

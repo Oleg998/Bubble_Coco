@@ -22,16 +22,28 @@
 .foo-item a:hover {
     text-decoration: underline;
 }
+
 .center-text {
-    text-align: center}
+    text-align: center
+}
 
-    @include media(desktop) {
-        .foo-list {
-            flex-wrap: nowrap;
-            max-width: 1055px;
-            justify-content: space-between;
-        }
-
-        .foo-item:nth-child(3){order :-1}
-        .foo-item:nth-child(1){order :-1}
+@include media(desktop) {
+    .footer-conteiner {
+        padding-bottom: 52px;
+        padding-top: 52px;
     }
+
+    .foo-list {
+        flex-wrap: nowrap;
+        max-width: 1055px;
+        justify-content: space-between;
+    }
+
+    .foo-item:nth-child(3) {
+        order: -1
+    }
+
+    .foo-item:nth-child(1) {
+        order: -1
+    }
+}

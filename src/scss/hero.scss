@@ -1,11 +1,12 @@
 .sub-hero-containet {
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
+
 .sub-titel-hero {
     font-family: "Paytone One", sans-serif;
     font-weight: 400;
@@ -14,10 +15,12 @@
     color: #fff;
     margin-bottom: 8px;
 }
-.google{
-    width:160px;
-     height:47px;
+
+.google {
+    width: 160px;
+    height: 47px;
 }
+
 .titel-hero {
     font-family: "Paytone One", sans-serif;
     font-weight: 400;
@@ -25,7 +28,7 @@
     letter-spacing: 0.01em;
     color: #ffe000;
     margin-bottom: 8px;
-    
+
 }
 
 .text-hero {
@@ -38,59 +41,69 @@
     max-width: 223px;
     margin-bottom: 24px;
 }
+
 .hero-containet {
-    padding: 0 15px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 .google-hero {
     fill: white;
     stroke: transparent;
 }
+
 .hero-logo-google {
     margin-bottom: 55px;
 }
+
 .hero-img {
-   max-width: 279px;
-   margin-bottom: 56px;
-   max-width: 279px;
+    max-width: 279px;
+    padding-bottom: 40px;
+    ;
+    max-width: 279px;
 }
 
-@include media(desktop){
+@include media(desktop) {
     .hero-containet {
         flex-direction: row;
-        justify-content:space-between;
+        justify-content: space-between;
         padding-bottom: 172px;
         padding-left: 195px;
         padding-right: 195px;
 
     }
+
     .hero-img {
         max-width: 404px;
         margin-bottom: 0;
-     }
-     .text-hero{
+    }
+
+    .text-hero {
         font-style: 16px;
         max-width: 310px;
         text-align: left;
 
-     }
-     .google{
-        width:201px;
-         height:59px;
     }
-    .titel-hero{
-        
+
+    .google {
+        width: 201px;
+        height: 59px;
+    }
+
+    .titel-hero {
+
         font-style: 48px;
     }
-    .sub-titel-hero{
+
+    .sub-titel-hero {
         font-style: 48px;
     }
-    .sub-hero-containet{
+
+    .sub-hero-containet {
         justify-content: start;
         align-items: start;
     }
