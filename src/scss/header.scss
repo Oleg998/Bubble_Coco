@@ -1,5 +1,5 @@
 .header-container {
-  padding: 16px;
+  padding-top: 16px;
 
 }
 
@@ -169,4 +169,25 @@
     flex-direction: column;
     gap: 32px;
   }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+    z-index: 20;
+  }
+
+  .backdrop.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
 }
