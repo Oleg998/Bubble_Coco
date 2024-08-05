@@ -32,7 +32,7 @@ const swiper = new Swiper('.swiper', {
         this.slides.forEach((slide) => {
           slide.style.transform = 'scale(1)';
         });
-        this.slides[this.activeIndex].style.transform = 'scale(1.33)';
+        this.slides[this.activeIndex].style.transform = 'scale(1.33) translateY(10%)';
       } else {
         this.slides.forEach((slide) => {
           slide.style.transform = 'scale(1)';
