@@ -1,8 +1,8 @@
-
 const mobileMenu = document.querySelector('.header-menu');
 const openMenuBtn = document.querySelector('.open-menu');
 const closeMenuBtn = document.querySelector('.close-btn');
 const backdrop = document.getElementById("backdrop");
+
 
 openMenuBtn.addEventListener('click', function() {
   mobileMenu.classList.toggle('is-open');
@@ -24,7 +24,9 @@ const menuLinks = document.querySelectorAll('.header-list-link');
 menuLinks.forEach(link => {
   link.addEventListener('click', () => {
     mobileMenu.classList.remove('is-open');
-    b
+    closeMenuBtn.style.display = 'none';
+    openMenuBtn.style.display = 'inline-block';
+    backdrop.classList.remove("active");
   });
 });
 
@@ -32,4 +34,7 @@ menuLinks.forEach(link => {
 window.matchMedia('(min-width: 1440px)').addEventListener('change', e => {
   if (!e.matches) return;
   mobileMenu.classList.remove('is-open');
+  closeMenuBtn.style.display = 'none';
+  openMenuBtn.style.display = 'inline-block';
+  backdrop.classList.remove("active");
 });
