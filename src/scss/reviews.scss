@@ -99,7 +99,7 @@
         width: 100%;
         max-width: 1188px;
         margin: 0 auto;
-        height: 100%;
+        overflow: visible; 
     }
 
     .swiper-wrapper {
@@ -107,6 +107,7 @@
     }
 
     .swiper-slide {
+        margin-bottom: 50px;
         border-radius: 15px;
         padding: 30px;
         max-width: 304px;
