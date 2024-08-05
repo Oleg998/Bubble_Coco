@@ -7,6 +7,7 @@ import 'swiper/css/bundle';
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   centeredSlides: true,
+
   slidesPerView: 1.5,
   slidesPerGroup: 1,
   spaceBetween: 8,
@@ -22,6 +23,8 @@ const swiper = new Swiper('.swiper', {
   },
   breakpoints: {
     1440: {
+      slidesOffsetBefore: 0,
+      slidesOffsetAfter: 0,
       slidesPerView: 3,
       spaceBetween: 68,
     },

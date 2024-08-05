@@ -36,7 +36,7 @@
 .open-right,
 .open-left {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     display: none;
     border-radius: 50%;
@@ -87,6 +87,7 @@
 }
 
 .swiper-wrapper {
+    width: 288px;
     display: flex;
     height: 100%;
 
@@ -103,10 +104,12 @@
     }
 
     .swiper-wrapper {
-        width: 1050px;
+        max-width:  1050px;
+        
     }
 
     .swiper-slide {
+        justify-content: center;
         margin-bottom: 50px;
         border-radius: 15px;
         padding: 30px;
@@ -127,11 +130,11 @@
     }
 
     .open-right {
-        right: 10px;
+        right: -50px;
     }
 
     .open-left {
-        left: 10px;
+        left: -50px;
     }
 
     .open-right,
