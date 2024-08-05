@@ -69,6 +69,12 @@
     margin: 0 auto;
 }
 
+.swiper-wrapper {
+    display: flex;
+    width: 288px;
+    height: auto;
+    margin: 0 auto;
+}
 
 @include media(desktop) {
     .rev-btn {
@@ -105,11 +111,11 @@
 
     .swiper {
         width: 1182px;
-        padding-bottom: 107px;
+
     }
 
     .swiper-wrapper {
-        max-width: 1050px;
+        width: 1050px;
     }
 
     .rev-img-reiting {
