@@ -50,6 +50,12 @@
     transition: background-color 300ms ease-in-out;
     z-index: 50;
 }
+.open-right:focus,
+.open-left :focus,
+.open-right:hover,
+.open-left:hover{
+    background-color:#5B00D0;
+} 
 
 .gallery__swiper {
     position: relative;
@@ -66,7 +72,6 @@
     gap: 8px;
     border-radius: 12px;
     display: flex;
-    height: 100%;
     justify-content: center;
     transition: transform 0.6s;
     background-color: $_bg_color;
@@ -110,7 +115,13 @@
 
 
     .rev-btn {
-        fill: #ABA1C8;
+        stroke: #ABA1C8;
+    }
+
+    .rev-btn:hever , 
+    .rev-btn:focus 
+    {
+        stroke: #5B00D0;
     }
 
     .open-right {
