@@ -34,7 +34,7 @@ const swiper = new Swiper('.swiper', {
         this.slides.forEach((slide) => {
           slide.style.transform = 'scale(1)';
         });
-        this.slides[this.activeIndex].style.transform = 'scale(1.33) translateY(10%)';
+        this.slides[this.activeIndex].style.transform = 'scale(1.3) translateY(10%)';
       } else {
         this.slides.forEach((slide) => {
           slide.style.transform = 'scale(1)';
@@ -46,7 +46,7 @@ const swiper = new Swiper('.swiper', {
         this.slides.forEach((slide) => {
           slide.style.transition = 'transform 0.6s';
         });
-        this.slides[this.activeIndex].style.transform = 'scale(1.33)';
+        this.slides[this.activeIndex].style.transform = 'scale(1.3)';
       } else {
         this.slides.forEach((slide) => {
           slide.style.transition = 'transform 0.6s';
